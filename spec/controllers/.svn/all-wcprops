@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/twitchoice/!svn/ver/79/spec/controllers
+END
+votes_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/twitchoice/!svn/ver/13/spec/controllers/votes_controller_spec.rb
+END
+answers_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/twitchoice/!svn/ver/1/spec/controllers/answers_controller_spec.rb
+END
+comment_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/twitchoice/!svn/ver/79/spec/controllers/comment_controller_spec.rb
+END
+votes_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/twitchoice/!svn/ver/13/spec/controllers/votes_routing_spec.rb
+END
+answers_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/twitchoice/!svn/ver/1/spec/controllers/answers_routing_spec.rb
+END
+questions_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/twitchoice/!svn/ver/1/spec/controllers/questions_controller_spec.rb
+END
+welcome_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/twitchoice/!svn/ver/1/spec/controllers/welcome_controller_spec.rb
+END
+authenticate_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/twitchoice/!svn/ver/17/spec/controllers/authenticate_controller_spec.rb
+END
+questions_routing_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/twitchoice/!svn/ver/1/spec/controllers/questions_routing_spec.rb
+END

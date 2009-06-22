@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent
+END
+agent.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/agent.rb
+END
+patch_const_missing.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/patch_const_missing.rb
+END
+error_collector.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/error_collector.rb
+END
+method_tracer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/method_tracer.rb
+END
+worker_loop.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/worker_loop.rb
+END
+stats_engine.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/stats_engine.rb
+END
+chained_call.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/chained_call.rb
+END
+transaction_sampler.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/transaction_sampler.rb
+END
+collection_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/collection_helper.rb
+END
+synchronize.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/synchronize.rb
+END

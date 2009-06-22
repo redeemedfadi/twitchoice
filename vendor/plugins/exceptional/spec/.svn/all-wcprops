@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/twitchoice/!svn/ver/55/vendor/plugins/exceptional/spec
+END
+exceptional_rescue_from_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/twitchoice/!svn/ver/55/vendor/plugins/exceptional/spec/exceptional_rescue_from_spec.rb
+END
+config_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/twitchoice/!svn/ver/55/vendor/plugins/exceptional/spec/config_spec.rb
+END
+exception_data_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/twitchoice/!svn/ver/55/vendor/plugins/exceptional/spec/exception_data_spec.rb
+END
+api_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/twitchoice/!svn/ver/55/vendor/plugins/exceptional/spec/api_spec.rb
+END
+exceptional_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/twitchoice/!svn/ver/55/vendor/plugins/exceptional/spec/exceptional_spec.rb
+END
+remote_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/twitchoice/!svn/ver/55/vendor/plugins/exceptional/spec/remote_spec.rb
+END
+bootstrap_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/twitchoice/!svn/ver/55/vendor/plugins/exceptional/spec/bootstrap_spec.rb
+END
+spec_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/twitchoice/!svn/ver/55/vendor/plugins/exceptional/spec/spec_helper.rb
+END
+log_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/twitchoice/!svn/ver/55/vendor/plugins/exceptional/spec/log_spec.rb
+END

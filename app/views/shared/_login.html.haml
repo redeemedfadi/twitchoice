@@ -1,0 +1,10 @@
+- form_tag '/login' do
+  %label{ :for => "username" }
+    twitter username
+  = text_field_tag :username, params[:username], :class => "input"
+  %br
+  %label{ :for => "password" }
+    twitter password
+  = password_field_tag :password, params[:password], :class => "input"
+  %br
+  = submit_tag "login", :class => "button"

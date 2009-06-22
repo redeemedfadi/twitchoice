@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation
+END
+data_mapper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/data_mapper.rb
+END
+memcache.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/memcache.rb
+END
+controller_instrumentation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/controller_instrumentation.rb
+END
+dispatcher_instrumentation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/dispatcher_instrumentation.rb
+END
+active_merchant.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/active_merchant.rb
+END
+active_record_instrumentation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/active_record_instrumentation.rb
+END

@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>TwitChoice.com - Get Answers on Twitter</title>
+    <link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- This file lives in public/500.html -->
+  <div id='main'>
+    <div id='top'>
+      <a href="http://twitchoice.com/"><img alt="TwitChoice - Get answers on twitter" src="/images/twitchoice_logo.png" /></a>
+    </div>
+  </div>
+  <div id="center">
+    <div id="flash">
+      <h1>We're sorry, but something went wrong.</h1>
+      <p>That page doesn't exist!</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+8
+
+dir
+82
+http://webfadi.com/svn/twitchoice/vendor/plugins/exceptional/lib
+http://webfadi.com/svn/twitchoice
+
+
+
+2009-04-19T01:51:15.778550Z
+55
+fadi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5d3d9cdd-be61-0410-b0e1-fe7f838ecedb
+
+exceptional
+dir
+
+exceptional.rb
+file
+
+
+
+
+2009-05-15T21:39:08.000000Z
+97849bbb0f6fcf0d141618fa8a3db76b
+2009-04-19T01:51:15.778550Z
+55
+fadi
+

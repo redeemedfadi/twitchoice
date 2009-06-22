@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/tasks
+END
+agent_tests.rake
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/tasks/agent_tests.rake
+END
+install.rake
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/tasks/install.rake
+END
+all.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/tasks/all.rb
+END

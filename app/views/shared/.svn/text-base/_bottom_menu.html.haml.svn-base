@@ -1,0 +1,11 @@
+#bottom_menu
+  %ul
+    %li
+      = link_to "ask", new_question_url
+    %li
+      = link_to "about", about_us_url
+    %li
+      = link_to "terms", terms_url
+    %li
+      = link_to "logout", logout_url if logged_in?
+      = link_to "login", login_url unless logged_in?

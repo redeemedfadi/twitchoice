@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/twitchoice/!svn/ver/81/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/twitchoice/!svn/ver/79/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/twitchoice/!svn/ver/60/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/twitchoice/!svn/ver/1/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/twitchoice/!svn/ver/81/config/environment.rb
+END
+newrelic.yml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/twitchoice/!svn/ver/77/config/newrelic.yml
+END
+consumer.test.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/twitchoice/!svn/ver/58/config/consumer.test.yml
+END
+consumer.qa.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/twitchoice/!svn/ver/60/config/consumer.qa.yml
+END
+exceptional.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/twitchoice/!svn/ver/55/config/exceptional.yml
+END
+consumer.prod.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/twitchoice/!svn/ver/58/config/consumer.prod.yml
+END
+deploy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/twitchoice/!svn/ver/69/config/deploy.rb
+END

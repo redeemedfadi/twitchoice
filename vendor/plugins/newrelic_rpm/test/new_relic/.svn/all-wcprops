@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/test/new_relic
+END
+tc_deployments_api.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/test/new_relic/tc_deployments_api.rb
+END
+tc_metric_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/test/new_relic/tc_metric_spec.rb
+END
+tc_shim_agent.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/test/new_relic/tc_shim_agent.rb
+END
+tc_stats.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/test/new_relic/tc_stats.rb
+END
+tc_environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/test/new_relic/tc_environment.rb
+END
+tc_config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/test/new_relic/tc_config.rb
+END

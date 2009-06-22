@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/twitchoice/!svn/ver/22/spec/fixtures
+END
+votes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/twitchoice/!svn/ver/13/spec/fixtures/votes.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/twitchoice/!svn/ver/22/spec/fixtures/users.yml
+END
+answers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/twitchoice/!svn/ver/1/spec/fixtures/answers.yml
+END
+questions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/twitchoice/!svn/ver/1/spec/fixtures/questions.yml
+END

@@ -1,0 +1,22 @@
+#login
+  %label.login
+    - if logged_in?
+      welcome
+    - else
+      please login
+  = link_to "ASK a question", new_question_url, :class => "button blue grey_bg"
+  %label.login
+    instructions
+  #form
+    #info.clear
+      %p
+        %strong
+          How does twitchoice work?
+      %p
+        login using twitter.
+      %p
+        %span.blue
+          = link_to "ASK", new_question_url
+        questions using the site.
+      %p
+        tweet the question. track the results.

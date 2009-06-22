@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/twitchoice/!svn/ver/78/log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/twitchoice/!svn/ver/78/log/test.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/twitchoice/!svn/ver/78/log/production.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/twitchoice/!svn/ver/78/log/server.log
+END

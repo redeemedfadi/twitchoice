@@ -1,0 +1,43 @@
+8
+
+dir
+82
+http://webfadi.com/svn/twitchoice/db
+http://webfadi.com/svn/twitchoice
+
+
+
+2009-05-30T05:03:56.044646Z
+82
+fadi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5d3d9cdd-be61-0410-b0e1-fe7f838ecedb
+
+schema.rb
+file
+
+
+
+
+2009-06-22T21:20:56.000000Z
+c20af787f074d57889368b1463f46802
+2009-05-30T05:03:56.044646Z
+82
+fadi
+
+migrate
+dir
+

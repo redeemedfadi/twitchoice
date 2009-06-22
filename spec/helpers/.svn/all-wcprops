@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/twitchoice/!svn/ver/79/spec/helpers
+END
+questions_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/twitchoice/!svn/ver/1/spec/helpers/questions_helper_spec.rb
+END
+welcome_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/twitchoice/!svn/ver/1/spec/helpers/welcome_helper_spec.rb
+END
+authenticate_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/twitchoice/!svn/ver/17/spec/helpers/authenticate_helper_spec.rb
+END
+votes_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/twitchoice/!svn/ver/13/spec/helpers/votes_helper_spec.rb
+END
+answers_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/twitchoice/!svn/ver/1/spec/helpers/answers_helper_spec.rb
+END
+comment_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/twitchoice/!svn/ver/79/spec/helpers/comment_helper_spec.rb
+END

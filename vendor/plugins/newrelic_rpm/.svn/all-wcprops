@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/LICENSE
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/Rakefile
+END
+newrelic_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/newrelic_spec.rb
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/init.rb
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/install.rb
+END
+newrelic.yml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/newrelic.yml
+END
+spec_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/spec_helper.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/README
+END

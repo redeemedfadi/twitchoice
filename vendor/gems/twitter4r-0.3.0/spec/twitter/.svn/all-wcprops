@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/twitchoice/!svn/ver/17/vendor/gems/twitter4r-0.3.0/spec/twitter
+END
+config_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/twitchoice/!svn/ver/17/vendor/gems/twitter4r-0.3.0/spec/twitter/config_spec.rb
+END
+version_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/twitchoice/!svn/ver/17/vendor/gems/twitter4r-0.3.0/spec/twitter/version_spec.rb
+END
+extras_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/twitchoice/!svn/ver/17/vendor/gems/twitter4r-0.3.0/spec/twitter/extras_spec.rb
+END
+meta_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/twitchoice/!svn/ver/17/vendor/gems/twitter4r-0.3.0/spec/twitter/meta_spec.rb
+END
+core_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/twitchoice/!svn/ver/17/vendor/gems/twitter4r-0.3.0/spec/twitter/core_spec.rb
+END
+rails_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/twitchoice/!svn/ver/17/vendor/gems/twitter4r-0.3.0/spec/twitter/rails_spec.rb
+END
+client_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/twitchoice/!svn/ver/17/vendor/gems/twitter4r-0.3.0/spec/twitter/client_spec.rb
+END
+model_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/twitchoice/!svn/ver/17/vendor/gems/twitter4r-0.3.0/spec/twitter/model_spec.rb
+END
+console_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/twitchoice/!svn/ver/17/vendor/gems/twitter4r-0.3.0/spec/twitter/console_spec.rb
+END

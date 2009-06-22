@@ -1,0 +1,22 @@
+<p>
+  <b>User:</b>
+  <%=h @question.user %>
+</p>
+
+<p>
+  <strong>Question:</strong>
+  <%=h @question.question %>
+</p>
+    <strong>Answers:</strong>
+    <ul>
+    <% @question.answers.each do |a| %>
+      <li><%=h a.answer %> | Votes: <%= show_number_of_votes(a.id) %> </li>
+    <% end %>
+    </ul>
+   <%- if logged_in? %> 
+      You have voted already
+   <%- else %>
+      Please log in to vote
+   <%- end %>
+
+<%= link_to 'Back', questions_path %>

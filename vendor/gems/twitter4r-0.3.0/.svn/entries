@@ -1,0 +1,46 @@
+8
+
+dir
+82
+http://webfadi.com/svn/twitchoice/vendor/gems/twitter4r-0.3.0
+http://webfadi.com/svn/twitchoice
+
+
+
+2009-02-18T03:40:33.957606Z
+17
+fadi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5d3d9cdd-be61-0410-b0e1-fe7f838ecedb
+
+lib
+dir
+
+spec
+dir
+
+.specification
+file
+
+
+
+
+2009-05-15T21:39:09.000000Z
+7bd37c5f28608f642d278b4763db4e95
+2009-02-18T03:40:33.957606Z
+17
+fadi
+

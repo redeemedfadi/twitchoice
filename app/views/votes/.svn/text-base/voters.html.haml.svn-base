@@ -1,0 +1,3 @@
+- @votes.each do |vote|
+  - user = User.find_by_id(vote.user_id)
+  = link_to user_image(user), "http://twitter.com/#{user.username}", :target => "_blank"

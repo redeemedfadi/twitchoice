@@ -1,0 +1,426 @@
+
+
+Processing WelcomeController#index (for 66.0.194.240 at 2009-02-04 09:16:29) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 1, DB: 1) | 200 OK [http://test.twitchoice.com/]
+
+
+Processing WelcomeController#index (for 66.56.3.243 at 2009-02-07 00:14:34) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 1, DB: 1) | 200 OK [http://test.twitchoice.com/]
+
+
+Processing QuestionsController#index (for 66.56.3.243 at 2009-02-07 00:14:39) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 0ms (View: -1915, DB: 14) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing QuestionsController#new (for 66.56.3.243 at 2009-02-07 00:14:41) [GET]
+Rendering template within layouts/default
+Rendering questions/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.twitchoice.com/questions/new]
+
+
+Processing QuestionsController#index (for 66.56.3.243 at 2009-02-07 00:14:46) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing QuestionsController#show (for 66.56.3.243 at 2009-02-07 00:14:47) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/default
+Rendering questions/show
+Completed in 1960ms (View: 8, DB: 1949) | 200 OK [http://test.twitchoice.com/questions/1]
+
+
+Processing VotesController#create (for 66.56.3.243 at 2009-02-07 00:14:54) [POST]
+  Parameters: {"commit"=>"Answer!", "vote"=>{"question_id"=>"1", "answer_id"=>"1"}, "authenticity_token"=>"d5c788cb6045f252e84f5b551de13682bc19cbb9"}
+Redirected to #<Vote:0x41e2ac20>
+Completed in 196ms (DB: 190) | 302 Found [http://test.twitchoice.com/votes]
+
+
+Processing VotesController#show (for 66.56.3.243 at 2009-02-07 00:14:52) [GET]
+  Parameters: {"id"=>"1"}
+Rendering votes/show
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.twitchoice.com/votes/1]
+
+
+Processing VotesController#index (for 66.56.3.243 at 2009-02-07 00:14:55) [GET]
+Rendering votes/index
+Completed in 21ms (View: 2, DB: 18) | 200 OK [http://test.twitchoice.com/votes]
+
+
+Processing QuestionsController#index (for 66.56.3.243 at 2009-02-07 00:15:00) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing QuestionsController#show (for 66.56.3.243 at 2009-02-07 00:15:03) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/default
+Rendering questions/show
+Completed in 21ms (View: 3, DB: 16) | 200 OK [http://test.twitchoice.com/questions/1]
+
+
+Processing QuestionsController#index (for 66.56.3.243 at 2009-02-07 00:15:07) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing ApplicationController#index (for 166.193.148.90 at 2009-02-07 07:12:40) [GET]
+
+
+ActionController::RoutingError (No route matches "/question" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /dh/passenger/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /dh/passenger/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /dh/passenger/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/utils.rb:163:in `safe_fork'
+    /dh/passenger/lib/passenger/utils.rb:161:in `fork'
+    /dh/passenger/lib/passenger/utils.rb:161:in `safe_fork'
+    /dh/passenger/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/utils.rb:163:in `safe_fork'
+    /dh/passenger/lib/passenger/utils.rb:161:in `fork'
+    /dh/passenger/lib/passenger/utils.rb:161:in `safe_fork'
+    /dh/passenger/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `__send__'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /dh/passenger/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /dh/passenger/lib/passenger/abstract_server.rb:135:in `start'
+    /dh/passenger/lib/passenger/abstract_server.rb:112:in `fork'
+    /dh/passenger/lib/passenger/abstract_server.rb:112:in `start'
+    /dh/passenger/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /dh/passenger/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /dh/passenger/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `__send__'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /dh/passenger/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /dh/passenger/lib/passenger/abstract_server.rb:135:in `start'
+    /dh/passenger/lib/passenger/abstract_server.rb:112:in `fork'
+    /dh/passenger/lib/passenger/abstract_server.rb:112:in `start'
+    /dh/passenger/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /dh/passenger/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /dh/passenger/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /dh/passenger/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /dh/passenger/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /dh/passenger/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `__send__'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /dh/passenger/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:46
+
+Rendering ./public/404.html (404 Not Found)
+
+
+Processing QuestionsController#index (for 166.193.148.90 at 2009-02-07 07:12:50) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 61ms (View: 44, DB: 14) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing QuestionsController#show (for 166.193.148.90 at 2009-02-07 07:13:15) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/default
+Rendering questions/show
+Completed in 49ms (View: 8, DB: 38) | 200 OK [http://test.twitchoice.com/questions/1]
+
+
+Processing VotesController#create (for 166.193.148.90 at 2009-02-07 07:13:23) [POST]
+  Parameters: {"commit"=>"Answer!", "vote"=>{"question_id"=>"1", "answer_id"=>"2"}, "authenticity_token"=>"e00244c12ad50648ebe0a1f0c157b95e6c420a94"}
+Redirected to #<Vote:0x41e24258>
+Completed in 324ms (DB: 317) | 302 Found [http://test.twitchoice.com/votes]
+
+
+Processing VotesController#show (for 166.193.148.90 at 2009-02-07 07:13:25) [GET]
+  Parameters: {"id"=>"2"}
+Rendering votes/show
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.twitchoice.com/votes/2]
+
+
+Processing QuestionsController#index (for 97.89.179.239 at 2009-02-07 10:06:43) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 30ms (View: 24, DB: 3) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing QuestionsController#show (for 97.89.179.239 at 2009-02-07 10:07:13) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/default
+Rendering questions/show
+Completed in 25ms (View: 8, DB: 15) | 200 OK [http://test.twitchoice.com/questions/1]
+
+
+Processing VotesController#create (for 97.89.179.239 at 2009-02-07 10:07:17) [POST]
+  Parameters: {"commit"=>"Answer!", "vote"=>{"question_id"=>"1", "answer_id"=>"2"}, "authenticity_token"=>"d9c02c01875528af318ec8ae60681badb1ca3843"}
+Redirected to #<Vote:0x41e27368>
+Completed in 230ms (DB: 223) | 302 Found [http://test.twitchoice.com/votes]
+
+
+Processing VotesController#show (for 97.89.179.239 at 2009-02-07 10:07:18) [GET]
+  Parameters: {"id"=>"3"}
+Rendering votes/show
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.twitchoice.com/votes/3]
+
+
+Processing QuestionsController#index (for 66.56.3.243 at 2009-02-07 18:26:16) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 2157ms (View: 2147, DB: 3) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing WelcomeController#index (for 97.89.179.239 at 2009-02-09 12:45:54) [GET]
+Rendering welcome/index
+Completed in 22ms (View: 1, DB: 3) | 200 OK [http://test.twitchoice.com/]
+
+
+Processing WelcomeController#index (for 97.89.179.239 at 2009-02-09 12:45:55) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 1, DB: 8) | 200 OK [http://test.twitchoice.com/]
+
+
+Processing QuestionsController#index (for 97.89.179.239 at 2009-02-09 12:48:02) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 96ms (View: 57, DB: 34) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing QuestionsController#show (for 97.89.179.239 at 2009-02-09 12:48:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/default
+Rendering questions/show
+Completed in 130ms (View: 11, DB: 116) | 200 OK [http://test.twitchoice.com/questions/1]
+
+
+Processing QuestionsController#index (for 97.89.179.239 at 2009-02-09 12:48:18) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing QuestionsController#show (for 97.89.179.239 at 2009-02-09 12:48:20) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/default
+Rendering questions/show
+Completed in 6ms (View: 3, DB: 2) | 200 OK [http://test.twitchoice.com/questions/1]
+
+
+Processing VotesController#create (for 97.89.179.239 at 2009-02-09 12:48:26) [POST]
+  Parameters: {"commit"=>"Answer!", "vote"=>{"question_id"=>"1", "answer_id"=>"2"}, "authenticity_token"=>"afb6bf6baa1974a654b84196967d5057aecc4e6a"}
+Redirected to #<Vote:0x41e1cd00>
+Completed in 0ms (DB: -939) | 302 Found [http://test.twitchoice.com/votes]
+
+
+Processing VotesController#show (for 97.89.179.239 at 2009-02-09 12:48:25) [GET]
+  Parameters: {"id"=>"4"}
+Rendering votes/show
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.twitchoice.com/votes/4]
+
+
+Processing VotesController#index (for 97.89.179.239 at 2009-02-09 12:48:27) [GET]
+Rendering votes/index
+Completed in 7ms (View: 4, DB: 2) | 200 OK [http://test.twitchoice.com/votes]
+
+
+Processing VotesController#show (for 97.89.179.239 at 2009-02-09 12:48:32) [GET]
+  Parameters: {"id"=>"1"}
+Rendering votes/show
+Completed in 5ms (View: 1, DB: 3) | 200 OK [http://test.twitchoice.com/votes/1]
+
+
+Processing VotesController#edit (for 97.89.179.239 at 2009-02-09 12:48:34) [GET]
+  Parameters: {"id"=>"1"}
+Rendering votes/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.twitchoice.com/votes/1/edit]
+
+
+Processing VotesController#show (for 97.89.179.239 at 2009-02-09 12:48:37) [GET]
+  Parameters: {"id"=>"1"}
+Rendering votes/show
+Completed in 4ms (View: 1, DB: 2) | 200 OK [http://test.twitchoice.com/votes/1]
+
+
+Processing VotesController#index (for 97.89.179.239 at 2009-02-09 12:48:38) [GET]
+Rendering votes/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://test.twitchoice.com/votes]
+
+
+Processing VotesController#new (for 97.89.179.239 at 2009-02-09 12:48:40) [GET]
+Rendering votes/new
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.twitchoice.com/votes/new]
+
+
+Processing VotesController#index (for 97.89.179.239 at 2009-02-09 12:48:43) [GET]
+Rendering votes/index
+Completed in 9ms (View: 7, DB: 1) | 200 OK [http://test.twitchoice.com/votes]
+
+
+Processing VotesController#edit (for 97.89.179.239 at 2009-02-09 12:48:45) [GET]
+  Parameters: {"id"=>"2"}
+Rendering votes/edit
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.twitchoice.com/votes/2/edit]
+
+
+Processing QuestionsController#index (for 97.89.179.239 at 2009-02-09 12:48:52) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing QuestionsController#show (for 97.89.179.239 at 2009-02-09 12:48:57) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/default
+Rendering questions/show
+Completed in 12ms (View: 3, DB: 7) | 200 OK [http://test.twitchoice.com/questions/1]
+
+
+Processing VotesController#create (for 97.89.179.239 at 2009-02-09 12:49:00) [POST]
+  Parameters: {"commit"=>"Answer!", "vote"=>{"question_id"=>"1", "answer_id"=>"1"}, "authenticity_token"=>"afb6bf6baa1974a654b84196967d5057aecc4e6a"}
+Redirected to #<Vote:0x41db24c8>
+Completed in 397ms (DB: 393) | 302 Found [http://test.twitchoice.com/votes]
+
+
+Processing VotesController#show (for 97.89.179.239 at 2009-02-09 12:49:00) [GET]
+  Parameters: {"id"=>"5"}
+Rendering votes/show
+Completed in 1740ms (View: 1, DB: 1738) | 200 OK [http://test.twitchoice.com/votes/5]
+
+
+Processing QuestionsController#index (for 97.89.179.239 at 2009-02-10 09:33:23) [GET]
+
+
+Processing QuestionsController#index (for 97.89.179.239 at 2009-02-10 09:33:33) [GET]
+
+
+Mysql::Error (Lost connection to MySQL server during query):
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:548:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:548:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:198:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:74:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:74:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:238:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:121:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:113:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /dh/passenger/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /dh/passenger/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /dh/passenger/lib/passenger/abstract_request_handler.rb:165:in `main_loop'
+    /dh/passenger/lib/passenger/railz/application_spawner.rb:321:in `start_request_handler'
+    /dh/passenger/lib/passenger/railz/application_spawner.rb:282:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/utils.rb:163:in `safe_fork'
+    /dh/passenger/lib/passenger/utils.rb:161:in `fork'
+    /dh/passenger/lib/passenger/utils.rb:161:in `safe_fork'
+    /dh/passenger/lib/passenger/railz/application_spawner.rb:280:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/utils.rb:163:in `safe_fork'
+    /dh/passenger/lib/passenger/utils.rb:161:in `fork'
+    /dh/passenger/lib/passenger/utils.rb:161:in `safe_fork'
+    /dh/passenger/lib/passenger/railz/application_spawner.rb:279:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `__send__'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /dh/passenger/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /dh/passenger/lib/passenger/abstract_server.rb:135:in `start'
+    /dh/passenger/lib/passenger/abstract_server.rb:112:in `fork'
+    /dh/passenger/lib/passenger/abstract_server.rb:112:in `start'
+    /dh/passenger/lib/passenger/railz/application_spawner.rb:179:in `start'
+    /dh/passenger/lib/passenger/railz/framework_spawner.rb:270:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/railz/framework_spawner.rb:263:in `synchronize'
+    /dh/passenger/lib/passenger/railz/framework_spawner.rb:263:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `__send__'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /dh/passenger/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /dh/passenger/lib/passenger/abstract_server.rb:135:in `start'
+    /dh/passenger/lib/passenger/abstract_server.rb:112:in `fork'
+    /dh/passenger/lib/passenger/abstract_server.rb:112:in `start'
+    /dh/passenger/lib/passenger/railz/framework_spawner.rb:87:in `start'
+    /dh/passenger/lib/passenger/spawn_manager.rb:222:in `spawn_rails_application'
+    /dh/passenger/lib/passenger/spawn_manager.rb:217:in `synchronize'
+    /dh/passenger/lib/passenger/spawn_manager.rb:217:in `spawn_rails_application'
+    /dh/passenger/lib/passenger/spawn_manager.rb:126:in `spawn_application'
+    /dh/passenger/lib/passenger/spawn_manager.rb:251:in `handle_spawn_application'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `__send__'
+    /dh/passenger/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /dh/passenger/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /dh/passenger/bin/passenger-spawn-server:46
+
+Rendering ./public/500.html (500 Internal Server Error)
+
+
+Processing QuestionsController#index (for 66.56.3.243 at 2009-02-12 19:28:55) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 0ms (View: 108, DB: -1347) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing QuestionsController#new (for 66.56.3.243 at 2009-02-12 19:28:57) [GET]
+Rendering template within layouts/default
+Rendering questions/new
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.twitchoice.com/questions/new]
+
+
+Processing WelcomeController#index (for 66.56.3.243 at 2009-02-12 19:45:36) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 1, DB: 2) | 200 OK [http://test.twitchoice.com/]
+
+
+Processing WelcomeController#index (for 70.174.158.129 at 2009-02-17 22:01:37) [GET]
+Rendering welcome/index
+Completed in 13ms (View: 4, DB: 2) | 200 OK [http://test.twitchoice.com/]
+
+
+Processing QuestionsController#index (for 70.174.158.129 at 2009-02-17 22:01:36) [GET]
+Rendering template within layouts/default
+Rendering questions/index
+Completed in 150ms (View: 56, DB: 92) | 200 OK [http://test.twitchoice.com/questions]
+
+
+Processing QuestionsController#show (for 70.174.158.129 at 2009-02-17 22:01:42) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/default
+Rendering questions/show
+Completed in 85ms (View: 8, DB: 74) | 200 OK [http://test.twitchoice.com/questions/1]
+
+
+Processing VotesController#create (for 70.174.158.129 at 2009-02-17 22:01:45) [POST]
+  Parameters: {"commit"=>"Answer!", "vote"=>{"question_id"=>"1", "answer_id"=>"2"}, "authenticity_token"=>"ab76cddc48099824da89406c6bf4a9e5f38569f2"}
+Redirected to #<Vote:0x41e3f530>
+Completed in 150ms (DB: 143) | 302 Found [http://test.twitchoice.com/votes]
+
+
+Processing WelcomeController#index (for 66.0.194.240 at 2009-02-19 14:16:57) [GET]
+Rendering welcome/index
+Completed in 4ms (View: 1, DB: 2) | 200 OK [http://test.twitchoice.com/]

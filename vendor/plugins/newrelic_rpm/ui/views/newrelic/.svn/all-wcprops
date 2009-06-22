@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic
+END
+_explain_plans.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/_explain_plans.rhtml
+END
+sample_not_found.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/sample_not_found.rhtml
+END
+_show_sample_summary.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/_show_sample_summary.rhtml
+END
+_show_sample_sql.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/_show_sample_sql.rhtml
+END
+show_source.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/show_source.rhtml
+END
+_segment.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/_segment.rhtml
+END
+_show_sample_detail.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/_show_sample_detail.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/index.rhtml
+END
+explain_sql.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/explain_sql.rhtml
+END
+_sample.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/_sample.rhtml
+END
+show_sample.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/show_sample.rhtml
+END
+_stack_trace.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/_stack_trace.rhtml
+END
+_sql_row.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/_sql_row.rhtml
+END
+_table.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/_table.rhtml
+END
+_segment_row.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/ui/views/newrelic/_segment_row.rhtml
+END

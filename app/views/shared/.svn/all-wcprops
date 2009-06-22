@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/twitchoice/!svn/ver/80/app/views/shared
+END
+_authenticate.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/twitchoice/!svn/ver/65/app/views/shared/_authenticate.html.haml
+END
+_google_analytics.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/twitchoice/!svn/ver/80/app/views/shared/_google_analytics.html.haml
+END
+_latest_twitchoice_tweet.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/twitchoice/!svn/ver/79/app/views/shared/_latest_twitchoice_tweet.html.haml
+END
+_bottom_menu.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/twitchoice/!svn/ver/70/app/views/shared/_bottom_menu.html.haml
+END
+_login.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/twitchoice/!svn/ver/42/app/views/shared/_login.html.haml
+END
+_main_menu.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/twitchoice/!svn/ver/58/app/views/shared/_main_menu.html.haml
+END
+_feedback.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/twitchoice/!svn/ver/80/app/views/shared/_feedback.html.erb
+END

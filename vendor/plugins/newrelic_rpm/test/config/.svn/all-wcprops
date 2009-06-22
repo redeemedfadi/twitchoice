@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/test/config
+END
+test_config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/test/config/test_config.rb
+END
+newrelic.yml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/test/config/newrelic.yml
+END

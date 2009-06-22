@@ -1,0 +1,12 @@
+#timeline
+  %span.blue
+    public timeline
+  - for question in @questions
+    .question
+      .image
+        = user_image(question.user)
+      .text
+        = link_to(h(question.question), question_path(question.sid) )
+.right
+  = render :partial => "shared/authenticate"
+  = render :partial => "shared/latest_twitchoice_tweet"

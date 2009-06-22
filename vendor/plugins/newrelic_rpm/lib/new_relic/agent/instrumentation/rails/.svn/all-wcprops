@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/rails
+END
+action_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/rails/action_controller.rb
+END
+dispatcher.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/rails/dispatcher.rb
+END
+action_web_service.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/rails/action_web_service.rb
+END
+rails.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/rails/rails.rb
+END
+errors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/twitchoice/!svn/ver/77/vendor/plugins/newrelic_rpm/lib/new_relic/agent/instrumentation/rails/errors.rb
+END

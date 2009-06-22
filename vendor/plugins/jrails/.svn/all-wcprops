@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/twitchoice/!svn/ver/7/vendor/plugins/jrails
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/twitchoice/!svn/ver/7/vendor/plugins/jrails/init.rb
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/twitchoice/!svn/ver/7/vendor/plugins/jrails/CHANGELOG
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/twitchoice/!svn/ver/7/vendor/plugins/jrails/install.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/twitchoice/!svn/ver/7/vendor/plugins/jrails/README
+END

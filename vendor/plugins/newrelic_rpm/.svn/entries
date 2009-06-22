@@ -1,0 +1,139 @@
+8
+
+dir
+82
+http://webfadi.com/svn/twitchoice/vendor/plugins/newrelic_rpm
+http://webfadi.com/svn/twitchoice
+
+
+
+2009-05-15T20:38:15.204190Z
+77
+fadi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5d3d9cdd-be61-0410-b0e1-fe7f838ecedb
+
+test
+dir
+
+LICENSE
+file
+
+
+
+
+2009-05-15T21:39:08.000000Z
+8826970c6214f175227b79b082b600d7
+2009-05-15T20:38:15.204190Z
+77
+fadi
+
+Rakefile
+file
+
+
+
+
+2009-05-15T21:39:08.000000Z
+ce79feb72fa9c56fd7217eff453e0747
+2009-05-15T20:38:15.204190Z
+77
+fadi
+
+newrelic_spec.rb
+file
+
+
+
+
+2009-05-15T21:39:08.000000Z
+8d68829df1c40ba2e224dbbc37a2f053
+2009-05-15T20:38:15.204190Z
+77
+fadi
+
+init.rb
+file
+
+
+
+
+2009-05-15T21:39:08.000000Z
+4d2d7f7bb4dd07e2bd3d3ef7919e5aa7
+2009-05-15T20:38:15.204190Z
+77
+fadi
+
+lib
+dir
+
+bin
+dir
+
+install.rb
+file
+
+
+
+
+2009-05-15T21:39:08.000000Z
+5ad263c91cdeb588706b00a4039d2387
+2009-05-15T20:38:15.204190Z
+77
+fadi
+
+newrelic.yml
+file
+
+
+
+
+2009-05-15T21:39:08.000000Z
+247013f5745ad97b406ccbc30492bd52
+2009-05-15T20:38:15.204190Z
+77
+fadi
+
+recipes
+dir
+
+spec_helper.rb
+file
+
+
+
+
+2009-05-15T21:39:08.000000Z
+448e23a58fad7a909d313a2521ddb733
+2009-05-15T20:38:15.204190Z
+77
+fadi
+
+ui
+dir
+
+README
+file
+
+
+
+
+2009-05-15T21:39:08.000000Z
+c77e0ae593aef22d168173e58ba25c9c
+2009-05-15T20:38:15.204190Z
+77
+fadi
+

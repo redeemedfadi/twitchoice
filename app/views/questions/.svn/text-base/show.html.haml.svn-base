@@ -1,0 +1,36 @@
+#vote
+  %h1.blue
+    %span
+      answer
+      == @#{h @question.user}
+    = link_to user_image(@question.user), "http://twitter.com/#{@question.user}", :target => "blank"
+  .grey_bg
+    - form_for(@vote) do |f|
+      %p#question
+        = h @question.question
+      = f.hidden_field "question_id", {:value => @question.id} unless @cannot_vote
+      %ul
+        - @question.answers.each do |a|
+          %li
+            .answer.white_bg
+              = f.radio_button "answer_id",a.id unless @cannot_vote
+              = h a.answer
+            - num_votes = number_of_votes_for_answer(@num_votes,a.id)
+            - if @total_votes != 0
+              - percent = (num_votes.to_f / @total_votes.to_f * 100).round
+            - else percent = 0
+            .result
+              .percent
+                == #{percent}%
+              .bar_container
+                .bar{ :style => "width:#{percent}%" }
+              .votes
+                ==  #{num_votes} votes
+          %li{:id => a.id}
+            = link_to_remote "who voted?", :update => a.id, :url => voters_path(a.id)
+      = link_to "tweet this!", post_question_path(@question.sid), :class => "button blue dark_grey_bg" if logged_in?
+      = f.submit "vote", :class => "blue dark_grey_bg" unless @cannot_vote
+      = link_to "Please Login to Vote", login_url, :class => "button" unless logged_in?
+      = "You have already voted" if @user_has_voted
+= render :partial => "comments"
+= render :partial => "create_comment"
