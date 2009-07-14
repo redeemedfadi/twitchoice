@@ -23,6 +23,11 @@ test:
   # No reason to collect exceptions when running tests by default
   enabled: false
 
+qa:
+  <<: *default_settings
+  # No reason to collect exceptions when running tests by default
+  enabled: true
+
 production:
   <<: *default_settings
   enabled: true
