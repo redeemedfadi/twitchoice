@@ -34,7 +34,7 @@ class User < ActiveRecord::Base
   end
 
   def update_image
-    image = Twitter.user(twitter_id).profile_image_url
+    image = Twitter.user(twitter_id).profile_image_url if twitter_id
   end
   
 end
