@@ -32,5 +32,9 @@ class User < ActiveRecord::Base
   def to_s
     username
   end
+
+  def update_image
+    image = Twitter.user(twitter_id).profile_image_url
+  end
   
 end
