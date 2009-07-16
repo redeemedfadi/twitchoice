@@ -2,7 +2,7 @@ class QuestionsController < ApplicationController
   layout "default"
   caches_action :index, :layout => false
 
-  before_filter :authenticate, {:except => ["show", "index", "votes"]}
+  before_filter :authenticate, {:except => ["show", "index", "votes", "clear"]}
 
   # GET /questions
   # GET /questions.xml
@@ -80,6 +80,12 @@ class QuestionsController < ApplicationController
         format.xml  { render :xml => @question.errors, :status => :unprocessable_entity }
       end
     end
+  end
+
+  def clear
+    expire_page :action => "index"
+    flash[:notice] = "Cache cleared"
+    redirect_to :action => "index"
   end
 
   def post

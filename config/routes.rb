@@ -10,6 +10,7 @@ ActionController::Routing::Routes.draw do |map|
   map.login 'login', :controller => "authenticate", :action => "login"
   map.logout 'logout', :controller => "authenticate", :action => "logout"
   map.authenticate '/authenticate', :controller => "authenticate", :action => "authorize"
+  map.clear 'clear', :controller => "questions", :action => "clear"
 
   map.resources :questions
   map.resources :answers
