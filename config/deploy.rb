@@ -1,11 +1,10 @@
+require 'capistrano/ext/multistage'
+
 set :application, "twitchoice.com"
 set :repository,  "webfadi@webfadi.com:~/git/twitchoice.git"
 set :scm,         "git"
 
-# If you aren't deploying to /u/apps/#{application} on the target
-# servers (which is the default), you can specify the actual location
-# via the :deploy_to variable:
-set :deploy_to, "/var/www/webapps/#{application}"
+set :stages, %w(qa production)
 set :deploy_via, "copy"
 #set :copy_cache, "#{ENV['HOME']}/deploy/#{application}"
 set :copy_exclude,  ['.git']
