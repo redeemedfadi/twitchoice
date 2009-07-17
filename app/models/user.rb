@@ -35,7 +35,7 @@ class User < ActiveRecord::Base
 
   def update_image
     image = Twitter.user(twitter_id).profile_image_url if twitter_id
-    save if image
+    update_attribute(:image, image) if image
   end
   
 end
