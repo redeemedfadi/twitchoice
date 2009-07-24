@@ -141,12 +141,15 @@ label.login {
 .question {
   height: 70px;
   background: url(/images/white_line_82px.png) repeat-y scroll -16px 50%;
-  background-color: #eae9e6; }
+  background-color: #eae9e6;
+  clear: both; }
   .question > .image {
     background-image: url(/images/pic_bg.png);
     float: left;
     margin-top: 5px;
-    padding: 6px 20px 6px 4px; }
+    padding: 6px 20px 6px 4px;
+    width: 48px;
+    height: 48px; }
     .question > .image img {
       width: 48px;
       height: 48px; }
