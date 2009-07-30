@@ -2,7 +2,7 @@ class QuestionsController < ApplicationController
   layout "default"
   caches_action :index, :layout => false
 
-  before_filter :authenticate, {:except => ["show", "index", "votes", "clear"]}
+  before_filter :authenticate, {:except => ["show", "index", "user_index", "votes", "clear"]}
 
   # GET /questions
   # GET /questions.xml
@@ -13,6 +13,18 @@ class QuestionsController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @questions }
+    end
+  end
+
+  def user_index
+    user = User.find_by_username(params[:username])
+    if user
+      @questions = user.questions
+      @latest_tweet = "welcome to TwitChoice, where you get answers on twitter!"
+      render :action => "index"
+    else
+      flash[:notice] = "Sorry, We couldn't find #{params[:username]}"
+      redirect_to "index"
     end
   end
 
