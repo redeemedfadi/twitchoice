@@ -80,7 +80,7 @@ class QuestionsController < ApplicationController
      @question.answers << Answer.new(:answer => answer) unless answer.blank?
     end
 
-    expire_page :action => "index"
+    expire_action :action => "index"
 
     respond_to do |format|
       if @question.save
@@ -95,7 +95,7 @@ class QuestionsController < ApplicationController
   end
 
   def clear
-    expire_page :action => "index"
+    expire_action :action => "index"
     flash[:notice] = "Cache cleared"
     redirect_to :action => "index"
   end
