@@ -248,7 +248,7 @@ label.login {
   font-weight: bold;
   margin: 0 30px 50px; }
 
-#question_submit, #vote_submit {
+#question_submit, #vote_submit, #comment_submit {
   padding: 10px; }
 
 .result {
