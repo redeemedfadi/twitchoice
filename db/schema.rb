@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090530041408) do
+ActiveRecord::Schema.define(:version => 20090731005920) do
 
   create_table "answers", :force => true do |t|
     t.integer  "question_id"
@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(:version => 20090530041408) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "sid",        :limit => 10
+    t.boolean  "deleted"
   end
 
   add_index "questions", ["sid"], :name => "index_questions_on_sid", :unique => true

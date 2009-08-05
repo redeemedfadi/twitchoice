@@ -108,6 +108,20 @@ class QuestionsController < ApplicationController
     redirect_to question_url( @question.sid )
   end
 
+  def delete
+    @question = Question.find_by_sid_and_user_id(params[:sid],session[:client_id])
+    if @question
+      if @question.update_attributes(:deleted => true)
+        flash[:notice] = "Deleted that question"
+        redirect_to :action => "index"
+      else
+        flash[:notice] = "We couldn't delete that question"
+      end
+    else
+      flash[:notice] = "We couldn't find that question"
+    end
+  end
+
   def backfill_sid
     Question.find(:all).each do |q|
       unless q.sid
