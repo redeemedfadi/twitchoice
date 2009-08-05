@@ -32,5 +32,5 @@
       = f.submit "vote", :class => "blue dark_grey_bg" unless @cannot_vote
       = link_to "Please Login to Vote", login_url, :class => "button" unless logged_in?
       = "You have already voted" if @user_has_voted
-= render :partial => "comments"
-= render :partial => "create_comment"
+= render :partial => "comments" 
+= render :partial => "create_comment" if logged_in?
