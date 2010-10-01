@@ -3,7 +3,7 @@
     %span
       answer
       == @#{h @question.user}
-    = link_to user_image(@question.user), "user/#{@question.user}", :target => "blank"
+    = link_to user_image(@question.user), "/user/#{@question.user}", :target => "blank"
   .grey_bg
     - form_for(@vote) do |f|
       %p#question
