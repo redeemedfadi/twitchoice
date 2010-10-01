@@ -4,7 +4,7 @@
   - for question in @questions
     .question
       .image
-        = link_to  user_image(question.user), "user/#{question.user}"
+        = link_to  user_image(question.user), "/user/#{question.user}"
       .text
         = link_to(h(question.question), question_path(question.sid) )
 .right
