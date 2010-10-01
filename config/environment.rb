@@ -15,7 +15,7 @@ Rails::Initializer.run do |config|
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "sqlite3-ruby", :lib => "sqlite3"
   # config.gem "aws-s3", :lib => "aws/s3"
-  config.gem 'haml'
+  config.gem 'haml', :version => '2.2.20'
   #config.gem 'twitter4r', :lib => "twitter.rb"
   config.gem 'twitter', :lib => 'twitter', :version => '0.6.6'
   # config.gem 'fiveruns_tuneup'
