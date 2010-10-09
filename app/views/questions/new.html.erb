@@ -1,11 +1,12 @@
-<%- content_for :header do %>
-<script type="text/javascript">
- $(document).ready(function(){
-   $('#add_an_answer').click(function(){
-     $('#add_an_answer').before($('#answer').html());
+<%- content_for :footer do %>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" ></script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+     $('#add_an_answer').click(function(){
+       $('#add_an_answer').before($('#answer').html());
+     });
    });
- });
-</script>
+  </script>
 <%- end %>
 <div id="ask">
   <h1 class="blue">answer me</h1>

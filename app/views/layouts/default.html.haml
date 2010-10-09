@@ -3,9 +3,7 @@
   %head
     %title
       TwitChoice.com - Get Answers on Twitter
-    = javascript_include_tag :defaults
     = yield :header
-    = stylesheet_link_tag "reset"
     = stylesheet_link_tag "main"
   %body
     #main
@@ -27,3 +25,4 @@
         .clear
     = render :partial => "shared/feedback"
     = render :partial => "shared/google_analytics"
+    = yield :footer
