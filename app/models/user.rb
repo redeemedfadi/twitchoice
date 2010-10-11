@@ -26,7 +26,7 @@ class User < ActiveRecord::Base
   end
   
   def profile_image_url
-    image || Twitter.user(twitter_id).profile_image_url || "/images/tc_bigger.png"
+    image || "/images/tc_bigger.png"
   end
   
   def to_s
