@@ -183,6 +183,7 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
   height: 70px;
   background-color: #eae9e6;
   clear: both; 
+  position:relative;
   margin-left: 68px;}
   .question > .image {
     background: url(/images/sprite.png?f6b45cc60d3c0df93281ee487e53ecdc) no-repeat 0px -45px;
@@ -197,6 +198,7 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
       width: 48px;
       height: 48px; }
   .question > .text {
+    left:0px;
     background-color: white;
     font-size: 0.8em;
     height: 45px;
