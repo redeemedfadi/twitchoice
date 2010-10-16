@@ -18,7 +18,7 @@ Rails::Initializer.run do |config|
   config.gem 'haml', :version => '2.2.20'
   #config.gem 'twitter4r', :lib => "twitter.rb"
   config.gem 'twitter', :lib => 'twitter', :version => '0.6.6'
-  # config.gem 'fiveruns_tuneup'
+  #config.gem 'fiveruns_tuneup'
 
   # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
 

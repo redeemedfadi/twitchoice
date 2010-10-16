@@ -8,13 +8,13 @@
   %body
     #main
       #top
-        = link_to image_tag("/images/twitchoice_logo.png", :alt => "TwitChoice - Get answers on twitter"), root_url
+        = link_to "TwitChoice - get answers on twitter", root_url, :class => "logo"
         #main_menu
           - if logged_in?
             %label.login 
               == welcome #{session[:username]}
           - else
-            = link_to image_tag("Sign-in-with-Twitter-lighter.png"), login_url
+            = link_to "Sign In With Twitter", login_url, :class => "signin"
       #center
         #flash
           = flash[:notice]

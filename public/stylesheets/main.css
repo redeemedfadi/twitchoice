@@ -53,8 +53,6 @@ a, a:hover, a:visited {
 #top {
   padding-left: 82px;
   height: 110px; }
-  #top img {
-    float: left; }
 
 .blue {
   color: #42bdef; }
@@ -157,16 +155,42 @@ label.login {
     font-weight: bold;
     margin-left: 67px; }
 
+a.signin{ 
+  background: url(/images/sprite.png?00001) -0px -111px;
+  display:block;
+  line-height:0px;
+  font-size:0px;
+  width: 153px; height: 24px }
+
+.logo{
+  background: url(/images/sprite.png?00001) -0px -203px; 
+  display:block;
+  line-height:0px;
+  font-size:0px;
+  float:left;
+  width: 217px; height: 59px
+}
+/* 
+sprite.png
+white_line: -0px -0px; width: 82px; height: 1px
+plus.png: -0px -11px; width: 24px; height: 24px
+pic_bg.png: -0px -45px; width: 82px; height: 56px
+Sign-in-with-Twitter-lighter.png: -0px -111px; width: 153px; height: 24px
+tc_bigger.png: -0px -145px; width: 48px; height: 48px
+twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
+*/
 .question {
   height: 70px;
-  background: url(/images/white_line_82px.png) repeat-y scroll -16px 50%;
   background-color: #eae9e6;
-  clear: both; }
+  clear: both; 
+  margin-left: 68px;}
   .question > .image {
-    background-image: url(/images/pic_bg.png);
-    float: left;
+    background: url(/images/sprite.png?00001) no-repeat 0px -45px;
+    float:left;
+    left:-64px;
     margin-top: 5px;
-    padding: 6px 20px 6px 4px;
+    padding: 4px 20px 6px 4px;
+    position: relative;
     width: 48px;
     height: 48px; }
     .question > .image img {
@@ -174,13 +198,12 @@ label.login {
       height: 48px; }
   .question > .text {
     background-color: white;
-    display: block;
-    float: left;
     font-size: 0.8em;
     height: 45px;
-    margin: 7px 5px 7px 0px;
+    margin: 7px 5px 7px 6px;
     padding: 5px;
-    width: 75%; }
+    position:absolute;
+    width: 268px; }
 
 #ask {
   color: #8a898a;
@@ -261,8 +284,11 @@ label.login {
     width: 85%; }
 
 #add_an_answer {
+  background: url(/images/sprite.png?00001) no-repeat -0px -11px; 
   cursor: pointer;
   display: block;
+  height: 24px;
+  padding: 6px 0 0 30px;
   font-style: italic;
   font-weight: bold;
   margin: 0 30px 50px; }
