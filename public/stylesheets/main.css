@@ -156,14 +156,14 @@ label.login {
     margin-left: 67px; }
 
 a.signin{ 
-  background: url(/images/sprite.png?00001) -0px -111px;
+  background: url(/images/sprite.png?f6b45cc60d3c0df93281ee487e53ecdc) -0px -111px;
   display:block;
   line-height:0px;
   font-size:0px;
   width: 153px; height: 24px }
 
 .logo{
-  background: url(/images/sprite.png?00001) -0px -203px; 
+  background: url(/images/sprite.png?f6b45cc60d3c0df93281ee487e53ecdc) -0px -203px; 
   display:block;
   line-height:0px;
   font-size:0px;
@@ -185,7 +185,7 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
   clear: both; 
   margin-left: 68px;}
   .question > .image {
-    background: url(/images/sprite.png?00001) no-repeat 0px -45px;
+    background: url(/images/sprite.png?f6b45cc60d3c0df93281ee487e53ecdc) no-repeat 0px -45px;
     float:left;
     left:-64px;
     margin-top: 5px;
@@ -284,7 +284,7 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
     width: 85%; }
 
 #add_an_answer {
-  background: url(/images/sprite.png?00001) no-repeat -0px -11px; 
+  background: url(/images/sprite.png?f6b45cc60d3c0df93281ee487e53ecdc) no-repeat -0px -11px; 
   cursor: pointer;
   display: block;
   height: 24px;
