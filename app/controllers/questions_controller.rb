@@ -2,12 +2,12 @@ class QuestionsController < ApplicationController
   layout "default"
   caches_action :index, :layout => false
 
-  before_filter :authenticate, {:except => ["show", "index", "user_index", "votes", "clear"]}
+  before_filter :authenticate, {:only => ["new", "create", "delete", "edit"]}
 
   # GET /questions
   # GET /questions.xml
   def index
-    @questions = Question.find(:all, :conditions => "user_id is not null", :order => "created_at DESC", :limit => 10)
+    @questions = Question.find(:all, :order => "created_at DESC", :limit => 10)
     @latest_tweet = "welcome to TwitChoice, where you get answers on twitter!"
     # @latest_tweet = Twitter.user(19079862).status.text
     respond_to do |format|
@@ -134,8 +134,10 @@ class QuestionsController < ApplicationController
   private
   
   def authenticate
-    flash[:notice] = "Please Login"
-    redirect_to root_url unless logged_in?
+    unless logged_in?
+      flash[:notice] = "Please Login"
+      redirect_to root_url 
+    end
   end
 
 end
