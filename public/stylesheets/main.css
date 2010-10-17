@@ -269,9 +269,8 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
   #new_vote ul {
     margin-bottom: 55px; }
   #new_vote .answer {
-    height: 1.4em;
     margin-bottom: 5px;
-    padding: 6px 6px 0;
+    padding: 3px 6px 0;
     width: 85%; }
   #new_vote a {
     color: #42bdef;
@@ -280,7 +279,6 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
 .answer {
   margin-left: 30px; }
   .answer input {
-    height: 1.4em;
     margin-bottom: 5px;
     padding: 6px 6px 0;
     width: 85%; }
