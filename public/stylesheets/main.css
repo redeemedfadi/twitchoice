@@ -320,3 +320,16 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
     border-color: #eae9e6;
     border-style: solid;
     padding: 20px; }
+
+@media screen and (max-device-width: 480px) {
+  #top{padding-left:0px;width:320px;}
+  #main_menu{width:170px;margin:10px 0 15px 0;}
+  #main_menu .signin{margin:8px 0 0 5px}
+  #main{width:320px;}
+  #uservoice-feedback{display:none;}
+  #timeline{width:320px;}
+  .question .text{width:91%}
+  #login .button{display:block;position:absolute;left:10px;top:70px}
+  .right{margin-top:10px;}
+  .right #login label, .right #login #form, .right #latest{display:none}
+}
