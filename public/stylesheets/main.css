@@ -321,15 +321,33 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
     border-style: solid;
     padding: 20px; }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 480px) 
+{
   #top{padding-left:0px;width:320px;}
   #main_menu{width:170px;margin:10px 0 15px 0;}
   #main_menu .signin{margin:8px 0 0 5px}
   #main{width:320px;}
   #uservoice-feedback{display:none;}
+  #flash{background-color:#FEF8AF;margin:10px;padding:4px;}
+
+  /* HOME PAGE */
   #timeline{width:320px;}
   .question .text{width:91%}
   #login .button{display:block;position:absolute;left:10px;top:70px}
   .right{margin-top:10px;}
   .right #login label, .right #login #form, .right #latest{display:none}
+
+  /* SHOW PAGE */
+  #vote{width:320px;margin:0;}
+  #vote h1 {font-size:1em;position:relative;}
+  #vote h1 span{position:inherit;left:0;}
+  #vote h1 img{left:0;}
+  #new_vote{padding:30px 10px;}
+  #new_vote ul li{border: 1px solid #8a898a;border-bottom:0px;padding:3px;margin-bottom:0px}
+  #new_vote ul {border-bottom: 1px solid #8a898a;}
+  #new_vote .who_voted{display:none;}
+  #new_vote #question{width:96%;}
+  .result .percent,.result .votes{width:30px;}
+  .result .votes{font-size:.5em;}
+  .result .bar_container{width:200px;}
 }

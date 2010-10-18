@@ -1,10 +1,7 @@
-- content_for :footer do
-  %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" }
 #vote
   %h1.blue
     %span
-      answer
-      == @#{h @question.user}
+      == answer&nbsp;@#{h @question.user}
     = link_to user_image(@question.user), "/user/#{@question.user}", :target => "blank"
   .grey_bg
     - form_for(@vote) do |f|
@@ -28,11 +25,18 @@
                 .bar{ :style => "width:#{percent}%" }
               .votes
                 ==  #{num_votes} votes
-          %li{:id => a.id}
-            = link_to_remote "who voted?", :update => a.id, :url => voters_path(a.id)
+            .who_voted{:id => a.id}
+              = link_to_remote "who voted?", :update => a.id, :url => voters_path(a.id)
       = link_to "tweet this!", post_question_path(@question.sid), :class => "button blue dark_grey_bg" if logged_in?
       = f.submit "vote", :class => "blue dark_grey_bg" unless @cannot_vote
       = link_to "Please Login to Vote", login_url, :class => "button" unless logged_in?
       = "You have already voted" if @user_has_voted
 = render :partial => "comments" 
 = render :partial => "create_comment" if logged_in?
+- content_for :footer do
+  %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" }
+  :javascript
+    $("#new_vote ul li").click(function(){
+      var input = $(this).find("input");
+      input.val("selected","selected");
+    });

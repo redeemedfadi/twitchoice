@@ -18,8 +18,9 @@
           - else
             = link_to "Sign In With Twitter", login_url, :class => "signin"
       #center
-        #flash
-          = flash[:notice]
+        - if flash[:notice]
+          #flash
+            = flash[:notice]
         = yield
         .clear
       #bottom
