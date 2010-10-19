@@ -7,11 +7,12 @@ class VotesController < ApplicationController
     @question = Question.find_by_id(@vote.question_id)
     respond_to do |format|
       if @vote.save
-        flash[:notice] = 'Vote was successfully created.'
+        flash[:notice] = 'Thanks for Choosing!'
         format.html { redirect_to(question_path(@question.sid)) }
         format.xml  { render :xml => @vote, :status => :created, :location => @vote }
       else
-        format.html { render :action => "new" }
+        flash[:notice] = "Please Select an Option"
+        format.html { redirect_to(question_path(@question.sid)) }
         format.xml  { render :xml => @vote.errors, :status => :unprocessable_entity }
       end
     end

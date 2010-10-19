@@ -3,4 +3,4 @@
     = hidden_field_tag :sid, @question.sid
     = f.label :comment, "leave a comment", :class => "blue"
     = f.text_area :comment, :rows => 2
-    = f.submit "submit", :class => "blue dark_grey_bg"
+    %a#comment.button.blue.dark_grey_bg comment

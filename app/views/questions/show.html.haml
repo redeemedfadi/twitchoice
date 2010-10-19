@@ -1,4 +1,4 @@
-#vote
+#vote{:class => @cannot_vote ? "cannotvote" : "canvote"}
   %h1.blue
     %span
       == answer&nbsp;@#{h @question.user}
@@ -11,7 +11,7 @@
       %ul
         - @question.answers.each do |a|
           %li
-            .answer.white_bg
+            .answer
               = f.radio_button "answer_id",a.id unless @cannot_vote
               = h a.answer
             - num_votes = number_of_votes_for_answer(@num_votes,a.id)
@@ -28,7 +28,8 @@
             .who_voted{:id => a.id}
               = link_to_remote "who voted?", :update => a.id, :url => voters_path(a.id)
       = link_to "tweet this!", post_question_path(@question.sid), :class => "button blue dark_grey_bg" if logged_in?
-      = f.submit "vote", :class => "blue dark_grey_bg" unless @cannot_vote
+      - unless @cannot_vote
+        %a#choose.button.blue.dark_grey_bg choose
       = link_to "Please Login to Vote", login_url, :class => "button" unless logged_in?
       = "You have already voted" if @user_has_voted
 = render :partial => "comments" 
@@ -36,7 +37,12 @@
 - content_for :footer do
   %script{ :type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" }
   :javascript
-    $("#new_vote ul li").click(function(){
-      var input = $(this).find("input");
-      input.val("selected","selected");
+    $("#choose").click(function(){
+      $("#new_vote").submit();
     });
+    $(".canvote #new_vote ul li").click(function(){
+      $("#new_vote ul li").removeClass("selected");
+      $(this).toggleClass("selected");
+      $(this).find("input")[0].checked = true;
+    });
+    $("#comment").click(function(){$("#new_comment form").submit()});

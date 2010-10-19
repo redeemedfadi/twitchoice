@@ -74,6 +74,7 @@ a, a:hover, a:visited {
   background-color: white; }
 
 .button {
+  cursor:pointer;
   padding: 10px;
   text-decoration: none; }
 
@@ -209,6 +210,7 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
 
 #ask {
   color: #8a898a;
+  margin: 0 auto;
   width: 555px; }
   #ask textarea {
     background-color: white;
@@ -246,8 +248,13 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
   text-align: right; }
   #new_comment #comment_comment {
     border: 1px solid #ccc;
+    margin-bottom:15px;
     width: 100%; }
 
+a#comment{
+  font-size: 0.8em;
+  margin-top: 10px;
+} 
 #new_question {
   padding: 30px;
   position: relative; }
@@ -269,6 +276,7 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
   #new_vote ul {
     margin-bottom: 55px; }
   #new_vote .answer {
+    background:white;
     margin-bottom: 5px;
     padding: 3px 6px 0;
     width: 85%; }
@@ -323,6 +331,11 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
 
 @media screen and (max-device-width: 480px) 
 {
+  .button{
+    -webkit-border-radius:10px;
+    background:white;
+    border:1px solid #8a898a;
+  }
   #top{padding-left:0px;width:320px;}
   #main_menu{width:170px;margin:10px 0 15px 0;}
   #main_menu .signin{margin:8px 0 0 5px}
@@ -338,16 +351,31 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
   .right #login label, .right #login #form, .right #latest{display:none}
 
   /* SHOW PAGE */
-  #vote{width:320px;margin:0;}
+  #vote,#ask{width:320px;margin:0 0 10px;}
   #vote h1 {font-size:1em;position:relative;}
   #vote h1 span{position:inherit;left:0;}
   #vote h1 img{left:0;}
-  #new_vote{padding:30px 10px;}
-  #new_vote ul li{border: 1px solid #8a898a;border-bottom:0px;padding:3px;margin-bottom:0px}
-  #new_vote ul {border-bottom: 1px solid #8a898a;}
-  #new_vote .who_voted{display:none;}
-  #new_vote #question{width:96%;}
+  #new_vote #question{width:96%;font-weight:bold;}
+  #new_vote,#new_question{padding:30px 10px;}
+  #new_vote ul li.selected{background:#eee}
+  #new_vote ul li{
+    background:white;
+    padding:6px 3px;
+    margin-bottom:1px;
+  }
+  .canvote #new_vote .who_voted,.canvote #new_vote .result{display:none;}
+  #new_vote .answer{margin-left:5px;width:93%;background:transparent;}
+  #new_vote .answer input{display:none;}
   .result .percent,.result .votes{width:30px;}
   .result .votes{font-size:.5em;}
   .result .bar_container{width:200px;}
+
+  .comment, #new_comment{width:300px;}
+
+  /* CREATE PAGE */
+  #ask h1{padding-left:10px;}
+  #ask textarea{width:96%;}
+  #ask .answer{margin:0px;}
+  #ask .answer input{width:96%;}
+  #ask .answer label{font-size:0.9em;}
 }
