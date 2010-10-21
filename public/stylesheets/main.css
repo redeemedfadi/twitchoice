@@ -378,4 +378,7 @@ a#comment{
   #ask .answer{margin:0px;}
   #ask .answer input{width:96%;}
   #ask .answer label{font-size:0.9em;}
+
+  .static {width:320px;}
+  .static label{text-align:left;padding-left:10px;}
 }
