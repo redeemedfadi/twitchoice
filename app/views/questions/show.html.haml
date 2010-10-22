@@ -26,7 +26,7 @@
               .votes
                 ==  #{num_votes} votes
             .who_voted{:id => a.id}
-              = link_to_remote "who voted?", :update => a.id, :url => voters_path(a.id)
+              = link_to_remote "who&nbsp;voted?", :update => a.id, :url => voters_path(a.id)
       = link_to "tweet this!", post_question_path(@question.sid), :class => "button blue dark_grey_bg" if logged_in?
       - unless @cannot_vote
         %a#choose.button.blue.dark_grey_bg choose

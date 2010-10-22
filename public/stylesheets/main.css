@@ -208,6 +208,10 @@ twitchoice_logo.png: -0px -203px; width: 217px; height: 59px
     position:absolute;
     width: 268px; }
 
+#errorExplanation h2, 
+#errorExplanation p{display:none;} 
+#errorExplanation {background:#FEF8AF;padding:5px 0;margin-bottom:10px;} 
+
 #ask {
   color: #8a898a;
   margin: 0 auto;
@@ -339,6 +343,7 @@ a#comment{
   #top{padding-left:0px;width:320px;}
   #main_menu{width:170px;margin:10px 0 15px 0;}
   #main_menu .signin{margin:8px 0 0 5px}
+  #main_menu label{padding-right:10px;}
   #main{width:320px;}
   #uservoice-feedback{display:none;}
   #flash{background-color:#FEF8AF;margin:10px;padding:4px;}
