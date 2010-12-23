@@ -1,49 +1,0 @@
-8
-
-dir
-82
-http://webfadi.com/svn/twitchoice/vendor/plugins/newrelic_rpm/test
-http://webfadi.com/svn/twitchoice
-
-
-
-2009-05-15T20:38:15.204190Z
-77
-fadi
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-5d3d9cdd-be61-0410-b0e1-fe7f838ecedb
-
-test_helper.rb
-file
-
-
-
-
-2009-05-15T21:39:05.000000Z
-8ba9bddfe72e78dc21bca7483246a7d1
-2009-05-15T20:38:15.204190Z
-77
-fadi
-
-config
-dir
-
-new_relic
-dir
-
-ui
-dir
-

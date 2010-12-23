@@ -1,3 +1,0 @@
-<h1>Authenticate#login</h1>
-<%= flash[:notice] %>
-<pre><%= @client.inspect %></pre>

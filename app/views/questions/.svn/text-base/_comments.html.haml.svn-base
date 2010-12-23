@@ -1,4 +1,0 @@
-- @question.comments.each do |comment|
-  .comment
-    %span.user= link_to "@#{comment.user.username}", "http://twitter.com/#{comment.user.username}"
-    %span.comment= h comment.comment

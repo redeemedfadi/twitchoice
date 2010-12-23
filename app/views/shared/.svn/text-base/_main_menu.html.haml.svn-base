@@ -1,2 +1,0 @@
-#main_menu
-  = link_to image_tag("Sign-in-with-Twitter-lighter.png"), login_url
